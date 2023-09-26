@@ -1,5 +1,6 @@
 import React from 'react'
 import TimelineItem from './TimelineItem'
+import TimelineItemWeb from './TimelineItemWeb'
 
 const Timeline = () => {
 
@@ -49,6 +50,7 @@ const Timeline = () => {
             <img src="utils/star pu.png" className='w-[15px] ml-24' />
         </div>
         <TimelineItem timeline={timelines} />
+        <TimelineItemWeb />
     </div>
   )
 }

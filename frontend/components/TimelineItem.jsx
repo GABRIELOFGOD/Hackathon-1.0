@@ -2,7 +2,7 @@ import React from 'react'
 
 const TimelineItem = ({timeline}) => {
   return (
-    <div>
+    <div className='md:hidden'>
         {
             timeline.map((item, index) => (
                 <div className='text-white relative overflow-y-hidden mb-10' key={index}>
